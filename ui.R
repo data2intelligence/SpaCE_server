@@ -14,7 +14,7 @@ fluidPage(
     
     fluidRow(
         column(3,wellPanel(
-            selectInput('st', 'Spatial Transcriptomics (ST) Data Set:', sts, selected = sts[4]),
+            selectInput('st', 'Spatial Transcriptomics (ST) Data Set:', sts, selected = sts[3]),
             selectInput('sampleName', 'Sample from the selected ST Data Set:', 'start sample'),
             
             tags$h5(tags$b("Parameter for module 1 (Cell)")),
