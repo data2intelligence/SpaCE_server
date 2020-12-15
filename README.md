@@ -1,1 +1,0 @@
-# Spatial Cell Estimator Server
